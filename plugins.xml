@@ -1,0 +1,11 @@
+<library path="PairsPointLioEstimator_Estimator">
+  <class type="pairs_point_lio_estimator_plugin::Estimator" base_class_type="pairs_uav_managers::StateEstimator">
+    <description>PointLIO state estimator</description>
+  </class>
+</library>
+
+<library path="PairsPointLioEstimator_Estimator2">
+  <class type="pairs_point_lio_estimator_plugin::Estimator2" base_class_type="pairs_uav_managers::StateEstimator">
+    <description>PointLIO state estimator</description>
+  </class>
+</library>
