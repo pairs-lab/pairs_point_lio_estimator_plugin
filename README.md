@@ -1,6 +1,13 @@
 # pairs_point_lio_estimator_plugin
 
-Part of the **PAIRS UAV system**.
+Pluginlib plugin that wraps Point-LIO LiDAR-inertial odometry as a state
+estimator for the PAIRS UAV stack. The estimation manager (`pairs_uav_managers`)
+loads it like any other `StateEstimator`, so Point-LIO odometry can feed the
+UAV's state estimate and be switched in alongside the other estimators in the
+stack.
+
+## Contents
+- `point_lio/PointLioEstimatorPlugin` — a `pairs_uav_managers::StateEstimator` plugin backed by Point-LIO.
 
 ## Branches
 - `ros1` — ROS 1 Noetic (catkin)
